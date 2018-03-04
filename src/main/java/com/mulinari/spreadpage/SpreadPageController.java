@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpreadPageController {
 	
 	@RequestMapping(method = RequestMethod.GET)
-	String getMethod(@PathVariable String userId) {
+	String findCoins(@PathVariable String userId) {
 		return "Message for UserId: " + userId;
 	}
 
